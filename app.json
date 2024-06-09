@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AppExpo",
-    "slug": "AppExpo",
+    "name": "EnviCan",
+    "slug": "EnviCan",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,12 +12,20 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyAI9kPkskayYti5ttrZL_UfBlL3OkMEbvs"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAI9kPkskayYti5ttrZL_UfBlL3OkMEbvs"
+        }
       }
     },
     "web": {
