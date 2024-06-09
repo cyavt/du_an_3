@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 const TrackLocationScreen = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Theo dõi vị trí</Text>
+      <Text style={styles.text}>Theo dõi vị trí - Test version 1</Text>
     </View>
   );
 };
