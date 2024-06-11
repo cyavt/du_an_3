@@ -20,6 +20,7 @@ import HomeScreen from "../components/HomeScreen";
 import AddDeviceScreen from "../components/AddDeviceScreen";
 import TrackLocationScreen from "../components/TrackLocationScreen";
 import CustomDrawerContent from "../components/CustomDrawerContent";
+import DetailsScreen from "../components/DetailsScreen"; // Import DetailsScreen
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -195,6 +196,11 @@ const AppNavigator = () => {
           name="Main"
           component={MainDrawer}
           options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="DetailsScreen"
+          component={DetailsScreen}
+          options={{ title: "Chi tiết" }}
         />
       </Stack.Navigator>
     </NavigationContainer>
